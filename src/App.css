@@ -1,0 +1,48 @@
+.button{
+  background-color: #35ab66;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.color-square{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.selected-color{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.color-list{
+  display: flex;
+  overflow-x: auto; 
+  justify-content: center;
+}
+.color-square{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px; 
+  border: 1px solid #ccc;
+  cursor: pointer;
+}  
+.layer1{
+  background-color: rgb(181, 161, 206);
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px ;
+}
+.layer2{
+  margin: 30px;
+  background-color: pink;
+  padding-top: 165px;
+  padding-bottom: 165px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
